@@ -6,6 +6,7 @@
 // #include<mutex>
 #include "monitor.h"
 
+
 class Buffer: public Monitor
 {
 private:
@@ -19,8 +20,8 @@ private:
 public:
     Buffer(std::size_t size);
     ~Buffer();
-    void put(int number);
-    int get();
+    void put(int number, std::string name);
+    int get(std::string name, std::string vorname);
 };
 
 #endif

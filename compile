@@ -1,2 +1,2 @@
 #!/bin/sh
-g++ -std=c++2a main.cpp Buffer.cpp -pthread -fsanitize=thread -o threads
+g++ -std=c++2a main.cpp Buffer.cpp -pthread -o threads

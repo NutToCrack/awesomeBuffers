@@ -76,7 +76,7 @@ class Condition
   friend class Monitor;
 
 public:
-	Condition(size_t size) : w( size )
+	Condition(std::size_t size) : w( size )
 	{
 		waitingCount = 0;
 	}
